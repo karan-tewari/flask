@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Flask and React Project</title>
+  </head>
+  <body>
+    <!-- React app goes here -->
+    <div id="root"></div>
+    <!-- react cdn -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@17/umd/react.production.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"
+    ></script>
+    <!-- load react -->
+    <script src="{{url_for('static', filename='app.js')}}"></script>
+  </body>
+</html>
