@@ -6,7 +6,6 @@
 
 ```
 // clone the repository
-1. git clone git@github.com:RishavGoswami/flask-react-without-jsx.git
 // navigate to the project directory
 2. cd flask-react-without-jsx
  // create a virtual environment
